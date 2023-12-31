@@ -40,3 +40,11 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
+
+// model
+$(document).ready(function () {
+    $(".overlay-text").mouseenter(function () {
+        // Hiển thị nội dung modal khi di chuột vào chữ
+        $("#myModal img");
+    });
+});
