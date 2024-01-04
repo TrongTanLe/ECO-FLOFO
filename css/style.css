@@ -513,6 +513,21 @@ li.carousel-indicator {
 .about_section .img-box img {
   width: 100%;
 }
+
+.about_section2 .container-fluid .heading{
+  background-color: rgba(143, 198, 64, 0.90);
+  border-bottom: 3px solid #8FC640E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.about_section2 .container-fluid .detail{
+  background-color: rgba(143, 198, 64, 0.90);
+  padding: 10px 50px 40px 20px;
+}
+
 /* end about section*/
 
 /* service eco */
@@ -766,6 +781,35 @@ li.carousel-indicator {
   background-color: transparent;
   color: var(--greenYellow);
 }
+
+.featured_new2 .detail-box h3 {
+  border-bottom: 3px solid #728F47;
+  display: inline-block; 
+  padding-bottom: 10px;
+  width: 300px;
+  margin-top: 50px;
+}
+
+.featured_new2 .img-box {
+  position: relative;
+}
+
+.featured_new2 .img-box::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+  width: 220px; 
+  height: 220px; 
+  background-color: #8FC640;
+  z-index: -1; 
+}
+
+.featured_new2 .img-box img{
+  width: 100%;
+  height: 540px;
+}
+
 /* end featured_new */
 /* partnership_section */
 .partnership_section .container-fluid {
@@ -934,3 +978,104 @@ li.carousel-indicator {
 .myForm {
   display: none;
 }
+
+/* about section */
+.title_about .container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title_about .box-title{
+  position: relative;
+  text-align: center;
+}
+
+.title_about .box-title h3 {
+  position: relative;
+}
+
+.title_about .box-title h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background-color: #D9D1D1; 
+  display: block;
+  z-index: 1;
+}
+
+.title_about .box-title h3::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px; 
+  width: 200px;
+  height: 3px;
+  background-color: #728F47; 
+  transform: translateX(-50%);
+  z-index: 2;
+  display: block;
+}
+
+.title_about .box-img{
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.title_about .box-img img{
+  width: 100%;
+  height: auto;
+}
+/* end about section */
+/* contact section */
+.contact_section h5 {
+  margin-top: 40px;
+}
+
+.contact_section .heading h3 {
+  position: relative;
+}
+
+.contact_section .heading h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background-color: #D9D1D1; 
+  display: block;
+  z-index: 1;
+}
+
+.contact_section .heading h3::before {
+  content: "";
+  position: absolute;
+  bottom: -5px; 
+  width: 200px;
+  height: 3px;
+  background-color: #728F47; 
+  z-index: 2;
+  display: block;
+}
+
+.contact_section .contact_detail {
+  border-right: 1px solid #686868;
+}
+
+.contact_section .map_container {
+  height: 360px;
+}
+
+.contact_section .map_container .map {
+  height: 100%;
+}
+
+.chat img,.talk img,.tiktok img{
+  width: 42px;
+  height: 40px;
+}
+/* end contact section */

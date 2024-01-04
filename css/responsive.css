@@ -60,6 +60,14 @@
     .partnership_section .container-fluid .item::after {
         height: 100px;
     }
+
+    .contact_section .contact_detail {
+        border-right: 0;
+    }
+
+    .contact_section .map_container {
+        margin: 20px 0 20px 0;
+    }
 }
 
 @media (max-width: 768px) {
