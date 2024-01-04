@@ -1,4 +1,8 @@
-@media (max-width: 1300px) {}
+@media (max-width: 1300px) {
+    .partnership_section .container-fluid .container-fluid {
+        grid-template-columns: repeat(8, 1fr);
+    } 
+}
 
 @media (min-width: 1200px) {
 
@@ -6,9 +10,9 @@
         font-size: 23px;
     }
 
-    .partnership_section .container-fluid .container-fluid {
+    /* .partnership_section .container-fluid .container-fluid {
         grid-template-columns: repeat(8, 1fr);
-    }
+    } */
 
     .map {
         max-height: 300px;
