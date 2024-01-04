@@ -930,3 +930,7 @@ li.carousel-indicator {
 }
 
 /* end footer section*/
+
+.myForm {
+  display: none;
+}
